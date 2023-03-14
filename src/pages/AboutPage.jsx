@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { ImagesComponent } from "../components/ImagesComponents";
 import img3 from "../resources/img/3.jpg";
 import { LoremComponent } from "../components/LoremComponent";
+import { NavLink } from "react-router-dom";
 
 
 export let AboutPage = () => {
@@ -11,8 +12,8 @@ export let AboutPage = () => {
                 <div className="tit">
                     <h1>about us</h1>
                     <ul className="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#" className="active">About us</a></li>
+                        <li><NavLink className={(props) => props.isActive ? "active" : ""} to={"/"} >Home</NavLink></li>
+                        <li><NavLink className={(props) => props.isActive ? "active" : ""}>About us</NavLink></li>
                     </ul>
                 </div>
             </div>
@@ -30,14 +31,49 @@ export let AboutPage = () => {
                 </div>
                 <div className="about">
                     <p className="mt-30">
-                        <LoremComponent />
-                        <LoremComponent />
-                        <LoremComponent />
-                        <LoremComponent />
-                        <LoremComponent />
-                        <LoremComponent />
-                        <LoremComponent />
-                        <LoremComponent />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                        nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+                        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis
+                        sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc
+                        sagittis dictum nisi, sed ullamcorper ipsum dignissim .
+                        <br /><br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                        nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+                        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis
+                        sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc
+                        sagittis dictum nisi, sed ullamcorper ipsum dignissim .
+                        <br /><br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                        nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+                        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis
+                        sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc
+                        sagittis dictum nisi, sed ullamcorper ipsum dignissim .
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                        nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+                        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis
+                        sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc
+                        sagittis dictum nisi, sed ullamcorper ipsum dignissim .
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                        nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+                        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis
+                        sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc
+                        sagittis dictum nisi, sed ullamcorper ipsum dignissim .
+                        <br /><br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                        nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+                        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis
+                        sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc
+                        sagittis dictum nisi, sed ullamcorper ipsum dignissim .
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                        nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+                        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis
+                        sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc
+                        sagittis dictum nisi, sed ullamcorper ipsum dignissim .
+                        <br /><br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                        nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+                        congue eget, auctor vitae massa.
+
                     </p>
                 </div>
             </section>

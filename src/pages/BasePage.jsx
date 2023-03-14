@@ -12,7 +12,7 @@ export let BasePage = () => {
         <Fragment>
             <nav>
                 <ul className="topnav">
-                    <li><a href="#"><img src={logo} height="50" alt="" /></a></li>
+                    <li><NavLink className={(props) => props.isActive ? "" : ""} to={"/"}><img src={logo} height="50" alt="" /></NavLink></li>
                     <div className="right">
                         <li><NavLink className={(props) => props.isActive ? "active" : ""} to={"/"}>Home</NavLink></li>
                         <li><NavLink className={(props) => props.isActive ? "active" : ""} to={"/about"}>About</NavLink></li>

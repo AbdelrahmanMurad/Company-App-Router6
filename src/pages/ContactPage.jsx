@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { ContactComponent } from "../components/ContactComponent";
 import { MapFrameComponent } from "../components/MapFrameComponent";
 
@@ -8,8 +9,8 @@ export let ContactPage = () => {
                 <div className="tit">
                     <h1>contact us</h1>
                     <ul className="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#" className="active">contact us</a></li>
+                        <li><NavLink className={(props) => props.isActive ? "active" : ""} to={"/"} >Home</NavLink></li>
+                        <li><NavLink className={(props) => props.isActive ? "active" : ""}>contact us</NavLink></li>
                     </ul>
                 </div>
             </div>

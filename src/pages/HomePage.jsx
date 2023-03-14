@@ -7,6 +7,7 @@ import img2 from "../resources/img/2.jpg";
 import img3 from "../resources/img/3.jpg";
 import img5 from "../resources/img/5.jpg";
 import { ContactComponent } from "../components/ContactComponent";
+import { NavLink } from "react-router-dom";
 
 export let HomePage = () => {
     return (
@@ -19,7 +20,7 @@ export let HomePage = () => {
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris
                         </p>
-                        <a href="">about us</a>
+                        <NavLink to={"/about"}>about us</NavLink>
                     </div>
                 </div>
             </div>
@@ -33,7 +34,7 @@ export let HomePage = () => {
                         <LoremComponent />
 
                         <div>
-                            <a href="" className="green-btn">Read More</a>
+                            <NavLink className={"green-btn"} to={"/about"}>Read More</NavLink>
                         </div>
                     </div>
                 </div>

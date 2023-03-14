@@ -13,18 +13,18 @@ export let ContactComponent = () => {
                             <div className="item contact-info mt-30">
                                 <div className="flex">
                                     <div className="item">
-                                        <i className="fa fa-phone"></i> <a href="tel:00 7625 98626">00 7625 98626</a>
+                                        <i className="fa fa-phone"></i> <a href="https://www.google.com/">00 7625 98626</a>
                                     </div>
                                     <div className="item">
-                                        <i className="fa fa-envelope"></i> <a href="mainto:00 7625 98626">info@info.com</a>
+                                        <i className="fa fa-envelope"></i> <a href="https://www.gmail.com/">info@info.com</a>
                                     </div>
                                 </div>
                                 <div className="flex mt-30">
                                     <div className="item">
-                                        <i className="fa fa-map"></i> <a href="">adress of caompany can be here</a>
+                                        <i className="fa fa-map"></i> <a href="https://www.google.com/">address of company can be here</a>
                                     </div>
                                     <div className="item">
-                                        <i className="fa fa-fax"></i> <a href="">00 7625 98626</a>
+                                        <i className="fa fa-fax"></i> <a href="https://www.google.com/">00 7625 98626</a>
                                     </div>
                                 </div>
                             </div>
